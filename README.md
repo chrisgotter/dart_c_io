@@ -114,7 +114,7 @@ MSDN](http://www.google.com/url?q=http%3A%2F%2Fmsdn.microsoft.com%2Fen-us%2Flibr
 | M | The month, from 1 through 12. | 6/15/2009 1:45:30 PM -\> 6 |
 | MM | The month, from 01 through 12. | 6/15/2009 1:45:30 PM -\> | 06 |
 | MMM | The abbreviated name of the month. | 6/15/2009 1:45:30 PM -\> Jun |
-| MMMM   | The full name of the month. | 6/15/2009 1:45:30 PM -\> June |
+| MMMM | The full name of the month. | 6/15/2009 1:45:30 PM -\> June |
 | s | The second, from 0 through 59. | 6/15/2009 1:45:09 PM -\> 9 |
 | ss | The second, from 00 through 59. | 6/15/2009 1:45:09 PM -\> 09 |
 | t | The first character of the AM/PM designator. | 6/15/2009 1:45:30 PM -\> P |
@@ -126,5 +126,22 @@ MSDN](http://www.google.com/url?q=http%3A%2F%2Fmsdn.microsoft.com%2Fen-us%2Flibr
 | yyyyy | The year as a five-digit number. | 1/1/0001 12:00:00 AM -\> 00001 <br /> 6/15/2009 1:45:30 PM -\> 02009 |
 | z | GMT: ISO notation 'Z' |  |
 | zz | GMT: UTC notation 'GMT' | GMT-0700 |
-| zzz| Hours and minutes offset from UTC. | GMT-0700 (Pacific Daylight Time) |
+| zzz | Hours and minutes offset from UTC. | GMT-0700 (Pacific Daylight Time) |
 | (other) | delimeters for dates and arrays |  |
+
+[](#)[](#)
+
+| width | description |
+|-------|-------------|
+| (number) | Minimum number of characters to be printed. If the value to be printed is shorter than this number, the result is padded with blank spaces. The value is not truncated even if the result is larger. |
+| \* | The width is not specified in the format string, but as an additional integer value argument preceding the argument that has to be formatted. |
+
+[](#)[](#)
+
+| .precision | description |
+|------------|-------------|
+| .number | For integer specifiers (d, i, o, u, x, X): precision specifies the minimum number of digits to be written. If the value to be written is shorter than this number, the result is padded with leading zeros. The value is not truncated even if the result is longer. A precision of 0 means that no character is written for the value 0. 
+For a, A, e, E, f and F specifiers: this is the number of digits to be printed after the decimal point (by default, this is 6).
+For g and G specifiers: This is the maximum number of significant digits to be printed. For s: this is the maximum number of characters to be printed. By default all characters are printed until the ending null character is encountered. 
+If the period is specified without an explicit value for precision, 0 is assumed. |
+| .\* | The precision is not specified in the format string, but as an additional integer value argument preceding the argument that has to be formatted. |
