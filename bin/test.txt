@@ -1,0 +1,290 @@
+Characters: a A 
+Decimals: 1977 650000
+Preceding with blanks:       1977 
+Preceding with zeros: 0000001977 
+Some different radices: 100 64 144 0x64 0144 
+Floats: 3.14 +3e+000 3.141600E+000 
+Width trick:    10 
+A string 
+Arrays: 3.1416->3.1416->3.1416
+Boolean values: true 
+The color: blue
+First number: 12345
+Second number: 0025
+Third number: 1234
+Float number: 3.14
+Hexadecimal: ff
+Octal: 377
+Unsigned value: 150
+Just print the percentage sign %
+:Hello, world!:
+:  Hello, world!:
+:Hello, wor:
+:Hello, world!:
+:Hello, world!  :
+:Hello, world!:
+:     Hello, wor:
+:Hello, wor     :
+too long: -71 -13035
+too long: 1977.000000 123456789.000000
+Characters: a A 
+Decimals: 1977 650000
+Preceding with blanks:       1977 
+Preceding with zeros: 0000001977 
+Some different radices: 100 64 144 0x64 0144 
+Floats: 3.14 +3e+000 3.141600E+000 
+Width trick:    10 
+A string 
+Arrays: 3.1416->3.1416->3.1416
+Boolean values: true 
+The color: blue
+First number: 12345
+Second number: 0025
+Third number: 1234
+Float number: 3.14
+Hexadecimal: ff
+Octal: 377
+Unsigned value: 150
+Just print the percentage sign %
+:Hello, world!:
+:  Hello, world!:
+:Hello, wor:
+:Hello, world!:
+:Hello, world!  :
+:Hello, world!:
+:     Hello, wor:
+:Hello, wor     :
+too long: -71 -13035
+too long: 1977.000000 123456789.000000
+Characters: a A 
+Decimals: 1977 650000
+Preceding with blanks:       1977 
+Preceding with zeros: 0000001977 
+Some different radices: 100 64 144 0x64 0144 
+Floats: 3.14 +3e+000 3.141600E+000 
+Width trick:    10 
+A string 
+Arrays: 3.1416->3.1416->3.1416
+Boolean values: true 
+The color: blue
+First number: 12345
+Second number: 0025
+Third number: 1234
+Float number: 3.14
+Hexadecimal: ff
+Octal: 377
+Unsigned value: 150
+Just print the percentage sign %
+:Hello, world!:
+:  Hello, world!:
+:Hello, wor:
+:Hello, world!:
+:Hello, world!  :
+:Hello, world!:
+:     Hello, wor:
+:Hello, wor     :
+too long: -71 -13035
+too long: 1977.000000 123456789.000000
+Characters: a A 
+Decimals: 1977 650000
+Preceding with blanks:       1977 
+Preceding with zeros: 0000001977 
+Some different radices: 100 64 144 0x64 0144 
+Floats: 3.14 +3e+000 3.141600E+000 
+Width trick:    10 
+A string 
+Arrays: 3.1416->3.1416->3.1416
+Boolean values: true 
+The color: blue
+First number: 12345
+Second number: 0025
+Third number: 1234
+Float number: 3.14
+Hexadecimal: ff
+Octal: 377
+Unsigned value: 150
+Just print the percentage sign %
+:Hello, world!:
+:  Hello, world!:
+:Hello, wor:
+:Hello, world!:
+:Hello, world!  :
+:Hello, world!:
+:     Hello, wor:
+:Hello, wor     :
+too long: -71 -13035
+too long: 1977.000000 123456789.000000
+Characters: a A 
+Decimals: 1977 650000
+Preceding with blanks:       1977 
+Preceding with zeros: 0000001977 
+Some different radices: 100 64 144 0x64 0144 
+Floats: 3.14 +3e+000 3.141600E+000 
+Width trick:    10 
+A string 
+Arrays: 3.1416->3.1416->3.1416
+Boolean values: true 
+The color: blue
+First number: 12345
+Second number: 0025
+Third number: 1234
+Float number: 3.14
+Hexadecimal: ff
+Octal: 377
+Unsigned value: 150
+Just print the percentage sign %
+:Hello, world!:
+:  Hello, world!:
+:Hello, wor:
+:Hello, world!:
+:Hello, world!  :
+:Hello, world!:
+:     Hello, wor:
+:Hello, wor     :
+too long: -71 -13035
+too long: 1977.000000 123456789.000000
+Characters: a A 
+Decimals: 1977 650000
+Preceding with blanks:       1977 
+Preceding with zeros: 0000001977 
+Some different radices: 100 64 144 0x64 0144 
+Floats: 3.14 +3e+000 3.141600E+000 
+Width trick:    10 
+A string 
+Arrays: 3.1416->3.1416->3.1416
+Boolean values: true 
+The color: blue
+First number: 12345
+Second number: 0025
+Third number: 1234
+Float number: 3.14
+Hexadecimal: ff
+Octal: 377
+Unsigned value: 150
+Just print the percentage sign %
+:Hello, world!:
+:  Hello, world!:
+:Hello, wor:
+:Hello, world!:
+:Hello, world!  :
+:Hello, world!:
+:     Hello, wor:
+:Hello, wor     :
+too long: -71 -13035
+too long: 1977.000000 123456789.000000
+Characters: a A 
+Decimals: 1977 650000
+Preceding with blanks:       1977 
+Preceding with zeros: 0000001977 
+Some different radices: 100 64 144 0x64 0144 
+Floats: 3.14 +3e+000 3.141600E+000 
+Width trick:    10 
+A string 
+Arrays: 3.1416->3.1416->3.1416
+Boolean values: true 
+The color: blue
+First number: 12345
+Second number: 0025
+Third number: 1234
+Float number: 3.14
+Hexadecimal: ff
+Octal: 377
+Unsigned value: 150
+Just print the percentage sign %
+:Hello, world!:
+:  Hello, world!:
+:Hello, wor:
+:Hello, world!:
+:Hello, world!  :
+:Hello, world!:
+:     Hello, wor:
+:Hello, wor     :
+too long: -71 -13035
+too long: 1977.000000 123456789.000000
+Characters: a A 
+Decimals: 1977 650000
+Preceding with blanks:       1977 
+Preceding with zeros: 0000001977 
+Some different radices: 100 64 144 0x64 0144 
+Floats: 3.14 +3e+000 3.141600E+000 
+Width trick:    10 
+A string 
+Arrays: 3.1416->3.1416->3.1416
+Boolean values: true 
+The color: blue
+First number: 12345
+Second number: 0025
+Third number: 1234
+Float number: 3.14
+Hexadecimal: ff
+Octal: 377
+Unsigned value: 150
+Just print the percentage sign %
+:Hello, world!:
+:  Hello, world!:
+:Hello, wor:
+:Hello, world!:
+:Hello, world!  :
+:Hello, world!:
+:     Hello, wor:
+:Hello, wor     :
+too long: -71 -13035
+too long: 1977.000000 123456789.000000
+Characters: a A 
+Decimals: 1977 650000
+Preceding with blanks:       1977 
+Preceding with zeros: 0000001977 
+Some different radices: 100 64 144 0x64 0144 
+Floats: 3.14 +3e+000 3.141600E+000 
+Width trick:    10 
+A string 
+Arrays: 3.1416->3.1416->3.1416
+Boolean values: true 
+The color: blue
+First number: 12345
+Second number: 0025
+Third number: 1234
+Float number: 3.14
+Hexadecimal: ff
+Octal: 377
+Unsigned value: 150
+Just print the percentage sign %
+:Hello, world!:
+:  Hello, world!:
+:Hello, wor:
+:Hello, world!:
+:Hello, world!  :
+:Hello, world!:
+:     Hello, wor:
+:Hello, wor     :
+too long: -71 -13035
+too long: 1977.000000 123456789.000000
+Characters: a A 
+Decimals: 1977 650000
+Preceding with blanks:       1977 
+Preceding with zeros: 0000001977 
+Some different radices: 100 64 144 0x64 0144 
+Floats: 3.14 +3e+000 3.141600E+000 
+Width trick:    10 
+A string 
+Arrays: 3.1416->3.1416->3.1416
+Boolean values: true 
+The color: blue
+First number: 12345
+Second number: 0025
+Third number: 1234
+Float number: 3.14
+Hexadecimal: ff
+Octal: 377
+Unsigned value: 150
+Just print the percentage sign %
+:Hello, world!:
+:  Hello, world!:
+:Hello, wor:
+:Hello, world!:
+:Hello, world!  :
+:Hello, world!:
+:     Hello, wor:
+:Hello, wor     :
+too long: -71 -13035
+too long: 1977.000000 123456789.000000
