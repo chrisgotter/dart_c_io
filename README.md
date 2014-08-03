@@ -93,4 +93,4 @@ MSDN](http://www.google.com/url?q=http%3A%2F%2Fmsdn.microsoft.com%2Fen-us%2Flibr
 
 | special | description | Examples |
 |---------|-------------|----------|
-| d | The day of the month, from 1 through 31. | 6/1/2009 1:45:30 PM -\> 1 \n 6/15/2009 1:45:30 PM -\> 15 |
+| d | The day of the month, from 1 through 31. | 6/1/2009 1:45:30 PM -\> 1 <br /> 6/15/2009 1:45:30 PM -\> 15 |
