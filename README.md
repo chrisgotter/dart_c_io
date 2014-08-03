@@ -94,3 +94,37 @@ MSDN](http://www.google.com/url?q=http%3A%2F%2Fmsdn.microsoft.com%2Fen-us%2Flibr
 | special | description | Examples |
 |---------|-------------|----------|
 | d | The day of the month, from 1 through 31. | 6/1/2009 1:45:30 PM -\> 1 <br /> 6/15/2009 1:45:30 PM -\> 15 |
+| dd | The day of the month, from 01 through 31.   | 6/1/2009 1:45:30 PM -\> 01 <br /> 6/15/2009 1:45:30 PM -\> 15 |
+| ddd | The abbreviated name of the day of the week.  | 6/15/2009 1:45:30 PM -\> Mon |
+| dddd | The full name of the day of the week. | 6/15/2009 1:45:30 PM -\> Monday |
+| f | The tenths of a second in a date and time value | 6/15/2009 13:45:30.617 -\> 6 <br /> 6/15/2009 13:45:30.050 -\> 0 |
+| ff | The hundredths of a second in a date and time value. | 6/15/2009 13:45:30.617 -\> 61 <br /> 6/15/2009 13:45:30.005 -\> 00 |
+| fff | The milliseconds in a date and time value.   | 6/15/2009 13:45:30.617 -\> 617 <br /> 6/15/2009 13:45:30.0005 -\> 000 |
+| F | If non-zero, the tenths of a second in a date and time value. | 6/15/2009 13:45:30.617 -\> 6 <br /> 6/15/2009 13:45:30.050 -\> (empty string) |
+| FF | If non-zero, the hundredths of a second in a date and time value. | 6/15/2009 13:45:30.617 -\> (empty string) |
+| FFF | If non-zero, the milliseconds in a date and time value. | 6/15/2009 13:45:30.617 -\> 617 <br /> 6/15/2009 13:45:30.0005 -\> (empty string) |
+| g/gg | The period or era. A.D. | 6/15/2009 1:45:30 PM -\> A.D.|
+| h | The hour, using a 12-hour clock from 1 to 12. | 6/15/2009 1:45:30 AM -\> <br /> 6/15/2009 1:45:30 PM -\> 1 |
+| hh | The hour, using a 12-hour clock from 01 to 12. | 6/15/2009 1:45:30 AM -\> 01 <br />  6/15/2009 1:45:30 PM -\> 01 |
+| H | The hour, using a 24-hour clock from 0 to 23. | 6/15/2009 1:45:30 AM -\> 1 | 6/15/2009 1:45:30 PM -\> 13 |
+| HH | The hour, using a 24-hour clock from 00 to 23. | 6/15/2009 1:45:30 AM -\> 01 <br /> 6/15/2009 1:45:30 PM -\> 13 |
+| K | Time zone information. |  |
+| m | The minute, from 0 through 59. | 6/15/2009 1:09:30 AM -\> 9 <br /> 6/15/2009 1:09:30 PM -\> 9 |
+| mm | The minute, from 00 through 59. | 6/15/2009 1:09:30 AM -\> 09 <br /> 6/15/2009 1:09:30 PM -\> 09 |
+| M | The month, from 1 through 12. | 6/15/2009 1:45:30 PM -\> 6 |
+| MM | The month, from 01 through 12. | 6/15/2009 1:45:30 PM -\> | 06 |
+| MMM | The abbreviated name of the month. | 6/15/2009 1:45:30 PM -\> Jun |
+| MMMM   | The full name of the month. | 6/15/2009 1:45:30 PM -\> June |
+| s | The second, from 0 through 59. | 6/15/2009 1:45:09 PM -\> 9 |
+| ss | The second, from 00 through 59. | 6/15/2009 1:45:09 PM -\> 09 |
+| t | The first character of the AM/PM designator. | 6/15/2009 1:45:30 PM -\> P |
+| tt | The AM/PM designator. | 6/15/2009 1:45:30 PM -\> PM |
+| y | The year, from 0 to 99.  | 1/1/0001 12:00:00 AM -\> 1 <br /> 1/1/0900 12:00:00 AM -\> 0 <br /> 1/1/1900 12:00:00 AM -\> 0 <br /> 6/15/2009 1:45:30 PM -\> 9 |
+| yy | The year, from 00 to 99. | 1/1/0001 12:00:00 AM -\> 01 <br /> 1/1/0900 12:00:00 AM -\> 00 <br /> 1/1/1900 12:00:00 AM -\> 00 <br /> 6/15/2009 1:45:30 PM -\> 09 |
+| yyy | The year, with a minimum | 1/1/0001 12:00:00 AM -\> 001 <br /> 1/1/0900 12:00:00 AM -\> 900 <br /> 1/1/1900 12:00:00 AM -\>  1900 <br /> 6/15/2009 1:45:30 PM -\> 2009 |
+| yyyy | The year as a four-digit number. | 1/1/0001 12:00:00 AM -\> 0001 <br /> 1/1/0900 12:00:00 AM -\> 0900 <br /> 1/1/1900 12:00:00 AM -\> 1900 <br /> 6/15/2009 1:45:30 PM -\> 2009 |
+| yyyyy | The year as a five-digit number. | 1/1/0001 12:00:00 AM -\> 00001 <br /> 6/15/2009 1:45:30 PM -\> 02009 |
+| z | GMT: ISO notation 'Z' |  |
+| zz | GMT: UTC notation 'GMT' | GMT-0700 |
+| zzz| Hours and minutes offset from UTC. | GMT-0700 (Pacific Daylight Time) |
+| (other) | delimeters for dates and arrays |  |
