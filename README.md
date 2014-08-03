@@ -30,14 +30,15 @@ as requested.
 A format specifier follows this prototype: [[see compatibility note
 below](http://www.google.com/url?q=http%3A%2F%2Fwww.cplusplus.com%2Freference%2Fcstdio%2Fprintf%2F%23compatibility&sa=D&sntz=1&usg=AFQjCNEXv52mTvFL6PofBONcYdNWYotleQ)]
 
-%[flags][ [special] ][width][.precision][length]specifier
+<code>
+  %[flags][ [special] ][width][.precision][length]specifier
+</code>
 
 Where the specifier character at the end is the most significant
 component, since it defines the type and the interpretation of its
 corresponding argument:
 
-[](#)[](#)
-
+<output>
 <table>
   <thead>
     <tr>
@@ -48,160 +49,160 @@ corresponding argument:
   </thead>
   <tbody>
     <tr>
-      <td>d or i</td>
+      <td><code>d</code> or <code>i</code></td>
       <td>Signed decimal integer</td>
-      <td>392</td>
+      <td><output>392</output></td>
     </tr>
     <tr>
-      <td>u</td>
+      <td><code>u</code></td>
       <td>Unsigned decimal integer</td>
-      <td>7235</td>
+      <td><output>7235</output></td>
     </tr>
     <tr>
-      <td>o</td>
+      <td><code>o</code></td>
       <td>Unsigned octal</td>
-      <td>610</td>
+      <td><output>610</output></td>
     </tr>
     <tr>
-      <td>x</td>
+      <td><code>x</code></td>
       <td>Unsigned hexadecimal integer</td>
-      <td>7fa</td>
+      <td><output>7fa</output></td>
     </tr>
     <tr>
-      <td>X</td>
+      <td><code>X</code></td>
       <td>Unsigned hexadecimal integer (uppercase)</td>
-      <td>7FA</td>
+      <td><output>7FA</output></td>
     </tr>
     <tr>
-      <td>f</td>
+      <td><code>f</code></td>
       <td>Decimal floating point, lowercase</td>
-      <td>392.65</td>
+      <td><output>392.65</output></td>
     </tr>
     <tr>
-      <td>F</td>
+      <td><code>F</code></td>
       <td>Decimal floating point, uppercase</td>
-      <td>392.65</td>
+      <td><output>392.65</output></td>
     </tr>
     <tr>
-      <td>e</td>
+      <td><code>e</code></td>
       <td>Scientific notation (mantissa/exponent), lowercase</td>
-      <td>3.9265e+2</td>
+      <td><output>3.9265e+2</output></td>
     </tr>
     <tr>
-      <td>E</td>
+      <td><code>E</code></td>
       <td>Scientific notation (mantissa/exponent), uppercase</td>
-      <td>3.9265E+2</td>
+      <td><output>3.9265E+2</output></td>
     </tr>
     <tr>
-      <td>g</td>
+      <td><code>g</code></td>
       <td>Use the shortest representation: %e or %f</td>
-      <td>392.65</td>
+      <td><output>392.65</output></td>
     </tr>
     <tr>
-      <td>G</td>
+      <td><code>G</code></td>
       <td>Use the shortest representation: %E or %F</td>
-      <td>392.65</td>
+      <td><output>392.65</output></td>
     </tr>
     <tr>
-      <td>a</td>
+      <td><code>a</code></td>
       <td>Hexadecimal floating point, lowercase</td>
-      <td>-0xc.90fep-2</td>
+      <td><output>-0xc.90fep-2</output></td>
     </tr>
     <tr>
-      <td>A</td>
+      <td><code>A</code></td>
       <td>Hexadecimal floating point, uppercase</td>
-      <td>-0XC.90FEP-2</td>
+      <td><output>-0XC.90FEP-2</output></td>
     </tr>
     <tr>
-      <td>\$</td>
+      <td><code>\$</code></td>
       <td>Currency</td>
-      <td>\$25.00</td>
+      <td><output>\$25.00</output></td>
     </tr>
     <tr>
-      <td>c</td>
+      <td><code>c</code></td>
       <td>Character</td>
-      <td>a</td>
+      <td><output>a</output></td>
     </tr>
     <tr>
-      <td>C</td>
+      <td><code>C</code></td>
       <td>Character capitalized</td>
-      <td>A</td>
+      <td><output>A</output></td>
     </tr>
     <tr>
-      <td>s</td>
+      <td><code>s</code></td>
       <td>String of characters</td>
-      <td>sample</td>
+      <td><output>sample</output></td>
     </tr>
     <tr>
-      <td>S</td>
+      <td><code>S</code></td>
       <td>String of characters in all caps</td>
-      <td>SAMPLE</td>
+      <td><output>SAMPLE</output></td>
     </tr>
     <tr>
-      <td>b</td>
+      <td><code>b</code></td>
       <td>String representation of a Boolean variable</td>
-      <td>true</td>
+      <td><output>true</output></td>
     </tr>
     <tr>
-      <td>B</td>
+      <td><code>B</code></td>
       <td>String representation of a Boolean variable, uppercase</td>
-      <td>TRUE</td>
+      <td><output>TRUE</output></td>
     </tr>
     <tr>
-      <td>v</td>
+      <td><code>v</code></td>
       <td>String representation of an array variable</td>
-      <td>a,b,c</td>
+      <td><output>a,b,c</output></td>
     </tr>
     <tr>
-      <td>V</td>
+      <td><code>V</code></td>
       <td>String representation of an array variable, uppercase</td>
-      <td>A,B,C</td>
+      <td><output>A,B,C</output></td>
     </tr>
     <tr>
-      <td>D</td>
+      <td><code>D</code></td>
       <td>String representation of a date object</td>
-      <td>Aug 15, 1990</td>
+      <td><output>Aug 15, 1990</output></td>
     </tr>
     <tr>
-      <td>W</td>
+      <td><code>W</code></td>
       <td>CSS styling (obviously not supported when printing to a textarea)</td>
-      <td>style</td>
+      <td><output>style</output></td>
     </tr>
     <tr>
-      <td>T</td>
+      <td><code>T</code></td>
       <td>Datatype for the parameter object</td>
-      <td>String</td>
+      <td><output>String</output></td>
     </tr>
     <tr>
-      <td>O</td>
+      <td><code>O</code></td>
       <td>Custom formatting function for the parameter object</td>
-      <td>this is a circle</td>
+      <td><output>this is a circle</output></td>
     </tr>
     <tr>
-      <td>p</td>
+      <td><code>p</code></td>
       <td>Hash Code</td>
-      <td>#8000000</td>
+      <td><output>#8000000</output></td>
     </tr>
     <tr>
-      <td>n</td>
+      <td><code>n</code></td>
       <td colspan="2">
         Nothing printed. The corresponding argument must be a pointer to a signed int. 
         The number of characters written so far is stored  in the pointed location.
       </td>
-      <td></td>
     </tr>
     <tr>
-      <td>%</td>
+      <td><code>%</code></td>
       <td>A % followed by another % character will write a single % to the stream.</td>
-      <td>%</td>
+      <td><output>%</output></td>
     </tr>
   </tbody>
 </table>
 <p>
-The format specifier can also contain sub-specifiers: flags, width,
-.precision and modifiers (in that order), which are optional and follow
-these specifications:
+  The format specifier can also contain sub-specifiers: flags, width,
+  .precision and modifiers (in that order), which are optional and follow
+  these specifications:
 </p>
+
 
 <table>
   <thead>
@@ -212,40 +213,85 @@ these specifications:
   </thead>
   <tbody>
     <tr>
-      <td>-</td>
+      <td><code>-</code></td>
       <td>
-        Left-justify within the given field width; Right justification is the 
-        default (see width sub-specifier).
+        Left-justify within the given field width; Right justification is 
+        the default (see width sub-specifier).
       </td>
     </tr>
     <tr>
-      <td>+</td>
+      <td><code>+</code></td>
       <td>
-        Forces to precede the result with a  plus or minus sign (+ or -) even 
-        for positive numbers. By default, only negative numbers are preceded 
-        with a - sign.
+        Forces to precede the result with a  plus or minus sign (+ or -) 
+        even for positive numbers. By default, only negative numbers are 
+        preceded with a - sign.
       </td>
     </tr>
     <tr>
-      <td>(space)</td>
+      <td><code>(space)</code></td>
       <td>
-        Forces to precede the result with a  plus or minus sign (+ or -) even 
-        for positive numbers. By default, only negative numbers are preceded 
-        with a - sign.</td>
-    </tr>
-    <tr>
-      <td>\#</td>
-      <td> 
-        Used with o, x or X specifiers the value is preceded with 0, 0x or
-        0X respectively for values different than zero. Used with a, A, e, E, 
-        f, F, g or G  it forces the written output to contain a decimal point 
-        even if no more digits follow. By default, if no digits follow, no 
-        decimal point is written.
+        If no sign is going to be written, a blank space is inserted 
+        before the value.
       </td>
     </tr>
     <tr>
-      <td>0</td>
-      <td></td>
+      <td><code>\#</code></td>
+      <td>
+        Used with o, x or X specifiers the value is preceded with 0, 0x 
+        or 0X respectively for values different than zero. Used with a, 
+        A, e, E, f, F, g or G  it forces the written output to contain 
+        a decimal point even if no more digits follow. By default, if 
+        no digits follow, no decimal point is written.
+      </td>
+    </tr>
+    <tr>
+      <td><code>0</code></td>
+      <td>
+        Left-pads the number with zeroes (0) instead of spaces when 
+        padding is specified (see width sub-specifier).
+      </td>
+    </tr>
+  </tbody>
+</table>
+<p>
+  The special sub-specifier contains special related text: delimiters and
+  date formats, which are optional and follow these specifications:
+  [
+    <a href="http://www.google.com/url?q=http%3A%2F%2Fmsdn.microsoft.com%2Fen-us%2Flibrary%2F8kb3ddd4(v%3Dvs.110).aspx%23gSpecifier&sa=D&sntz=1&usg=AFQjCNFQPPRtYkSAMLi43M20GKhVNamG2w">
+      content and documentation adapted from: MSDN
+    </a>
+  ]
+</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>special</th>
+      <th>description</th>
+      <th colspan="2">Examples</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td rowspan="2">d</td>
+      <td rowspan="2">The day of the month, from 1 through 31.</td>
+      <td><code>6/1/2009 1:45:30 PM</code></td>
+      <td><output>1</output></td>
+    </tr>
+    <tr>
+      <td><code>6/15/2009 1:45:30 PM</code></td>
+      <td><output>15</output></td>
+    </tr>
+
+    <tr>
+      <td rowspan="2"><code>dd</code></td>
+      <td rowspan="2">The day of the month, from 1 through 31.</td>
+      <td><code>6/1/2009 1:45:30 PM</code></td>
+      <td><output>1</output></td>
+    </tr>
+    <tr>
+      <td><code>6/15/2009 1:45:30 PM</code>
+      <td><output>15</output></td>
     </tr>
   </tbody>
 </table>
