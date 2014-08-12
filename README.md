@@ -507,12 +507,13 @@ corresponding argument:
     </tr>
     
     <tr>
-      <td rowspan="2"><code>hh</code></td>
+      <td><code>hh</code></td>
       <td rowspan="2">The hour, using a 12-hour clock from 01 to 12.</td>
       <td><code>6/1/2009 1:45:30 AM</code></td>
       <td><output>01</output></td>
     </tr>
     <tr>
+      <td><code>%I</code></td>
       <td><code>6/15/2009 1:45:30 PM</code>
       <td><output>1</output></td>
     </tr>
@@ -529,12 +530,13 @@ corresponding argument:
     </tr>
     
     <tr>
-      <td rowspan="2"><code>HH</code></td>
+      <td><code>HH</code></td>
       <td rowspan="2">The hour, using a 24-hour clock from 01 to 24.</td>
       <td><code>6/15/2009 1:45:30 AM</code></td>
       <td><output>01</output></td>
     </tr>
     <tr>
+      <td><code>%H</code></td>
       <td><code>6/15/2009 1:45:30 PM</code>
       <td><output>13</output></td>
     </tr>
@@ -552,12 +554,13 @@ corresponding argument:
     </tr>
     
     <tr>
-      <td rowspan="2"><code>mm</code></td>
+      <td><code>mm</code></td>
       <td rowspan="2">The minute, from 00 through 59.</td>
       <td><code>6/1/2009 1:09:30 AM</code></td>
       <td><output>09</output></td>
     </tr>
     <tr>
+      <td><code>%M</code></td>
       <td><code>6/15/2009 1:09:30 PM</code>
       <td><output>09</output></td>
     </tr>
@@ -571,10 +574,12 @@ corresponding argument:
     
     <tr>
       <td><code>MM</code></td>
-      <td>The month, from 01 through 12.</td>
-      <td><code>6/15/2009 1:45:30 PM</code></td>
-      <td><output>06</output></td>
+      <td rowspan="2">The month, from 01 through 12.</td>
+      <td rowspan="2"><code>6/15/2009 1:45:30 PM</code></td>
+      <td rowspan="2"><output>06</output></td>
     </tr>
+    <tr><td><code>%m</code></td></tr>
+    
     
     
     <tr>
@@ -605,10 +610,11 @@ corresponding argument:
     
     <tr>
       <td><code>ss</code></td>
-      <td>The second, from 00 through 59.</td>
-      <td><code>6/15/2009 1:45:09 AM</code></td>
-      <td><output>09</output></td>
+      <td rowspan="2">The second, from 00 through 59.</td>
+      <td rowspan="2"><code>6/15/2009 1:45:09 AM</code></td>
+      <td rowspan="2"><output>09</output></td>
     </tr>
+    <tr><td><code>%S</code></td></tr>
     
     
     <tr>
@@ -620,10 +626,11 @@ corresponding argument:
     
     <tr>
       <td><code>tt</code></td>
-      <td>The AM/PM designator.</td>
-      <td><code>6/15/2009 1:45:30 PM</code></td>
-      <td><output>PM</output></td>
+      <td rowspan="2">The AM/PM designator.</td>
+      <td rowspan="2"><code>6/15/2009 1:45:30 PM</code></td>
+      <td rowspan="2"><output>PM</output></td>
     </tr>
+    <tr><td><code>%p</code></td></tr>
     
     
     
@@ -654,7 +661,7 @@ corresponding argument:
     
     
     <tr>
-      <td rowspan="4"><code>yy</code></td>
+      <td rowspan="2"><code>yy</code></td>
       <td rowspan="4">The year, from 00 to 99.</td>
       <td><code>1/1/0001 12:00:00 AM</code></td>
       <td><output>01</output></td>
@@ -664,6 +671,8 @@ corresponding argument:
       <td><output>00</output></td>
     </tr>
     <tr>
+      
+      <td rowspan="2"><code>%y</code></td>
       <td><code>1/1/1900 12:00:00 AM</code></td>
       <td><output>00</output></td>
     </tr>
@@ -671,6 +680,15 @@ corresponding argument:
       <td><code>6/15/2009 1:45:30 PM</code></td>
       <td><output>09</output></td>
     </tr>
+    
+    
+    <tr>
+      <td><code>C</code></td>
+      <td rowspan="2">Year divided by 100 and truncated to integer (00-99). (Century)</td>
+      <td rowspan="2"><code>6/15/2009 1:45:09 AM</code></td>
+      <td rowspan="2"><output>20</output></td>
+    </tr>
+    <tr><td><code>%C</code></td></tr>
     
     <tr>
       <td rowspan="4"><code>yyy</code></td>
@@ -768,5 +786,94 @@ corresponding argument:
       <td rowspan="2"><output>PST</output></td>
     </tr>
     <tr><td><code>%Z</code></td></tr>
+    
+    <tr>
+      <td><code>u</code></td>
+      <td rowspan="2">ISO 8601 weekday as number with Monday as 1 (1-7)</td>
+      <td rowspan="2"><code>6/1/2009 1:45:30 PM</code></td>
+      <td rowspan="2"><output>01</output></td>
+    </tr>
+    <tr><td><code>%u</code></td></tr>
+    
+    
+    <tr>
+      <td><code>w</code></td>
+      <td rowspan="2">Weekday as a decimal number with Sunday as 0 (0-6)</td>
+      <td rowspan="2"><code>6/1/2009 1:45:30 PM</code></td>
+      <td rowspan="2"><output>01</output></td>
+    </tr>
+    <tr><td><code>%w</code></td></tr>
+    
+    
+    <tr>
+      <td><code>U</code></td>
+      <td rowspan="2">Week number with the first Sunday as the first day of week one (00-53)</td>
+      <td rowspan="2"><code>6/1/2009 1:45:30 PM</code></td>
+      <td rowspan="2"><output>23</output></td>
+    </tr>
+    <tr><td><code>%U</code></td></tr>
+    
+    <tr>
+      <td><code>W</code></td>
+      <td rowspan="4">Week number with the first Monday as the first day of week one (00-53)</td>
+      <td rowspan="4"><code>6/1/2009 1:45:30 PM</code></td>
+      <td rowspan="4"><output>23</output></td>
+    </tr>
+    <tr><td><code>V</code></td></tr>
+    <tr><td><code>%U</code></td></tr>
+    <tr><td><code>%V</code></td></tr>
+    
+    
+    <tr>
+      <td><code>ggg</code></td>
+      <td rowspan="2">Week-based year, last two digits (00-99)</td>
+      <td rowspan="2"><code>6/1/2009 1:45:30 PM</code></td>
+      <td rowspan="2"><output>09</output></td>
+    </tr>
+    <tr><td><code>%g</code></td></tr>
+    
+    <tr>
+      <td><code>G</code></td>
+      <td rowspan="2">Week-based year</td>
+      <td rowspan="2"><code>6/1/2009 1:45:30 PM</code></td>
+      <td rowspan="2"><output>2009</output></td>
+    </tr>
+    <tr><td><code>%G</code></td></tr>
+    
+    
+    <tr>
+      <td><code>jjj</code></td>
+      <td rowspan="2">Day of the year (001-366)</td>
+      <td><code>12/31/2009 1:45:30 PM</code></td>
+      <td><output>001</output></td>
+    </tr>
+    <tr>
+      <td><code>%j</code></td>
+      <td><code>12/31/2009 1:45:30 PM</code></td>
+      <td><output>365</output></td>
+    </tr>
+    
+    <tr>
+      <td rowspan="2"><code>jj</code></td>
+      <td rowspan="2">Day of the year (01-366)</td>
+      <td><code>12/31/2009 1:45:30 PM</code></td>
+      <td><output>01</output></td>
+    </tr>
+    <tr>
+      <td><code>12/31/2009 1:45:30 PM</code></td>
+      <td><output>365</output></td>
+    </tr>
+    
+    
+    <tr>
+      <td rowspan="2"><code>j</code></td>
+      <td rowspan="2">Day of the year (1-366)</td>
+      <td><code>12/31/2009 1:45:30 PM</code></td>
+      <td><output>1</output></td>
+    </tr>
+    <tr>
+      <td><code>12/31/2009 1:45:30 PM</code></td>
+      <td><output>365</output></td>
+    </tr>
   </tbody>
 </table>
