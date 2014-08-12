@@ -482,28 +482,6 @@ corresponding argument:
       <td><code>gg</code></td>
     </tr>
     
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
     <tr>
       <td rowspan="2"><code>h</code></td>
       <td rowspan="2">The hour, using a 12-hour clock from 1 to 12.</td>
@@ -571,16 +549,6 @@ corresponding argument:
       <td><output>09</output></td>
     </tr>
     
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
     <tr>
       <td><code>M</code></td>
       <td>The month, from 1 through 12.</td>
@@ -611,6 +579,157 @@ corresponding argument:
     </tr>
     
     
+    <tr>
+      <td><code>s</code></td>
+      <td>The second, from 0 through 59.</td>
+      <td><code>6/15/2009 1:45:09 AM</code></td>
+      <td><output>9</output></td>
+    </tr>
+    
+    
+    <tr>
+      <td><code>ss</code></td>
+      <td>The second, from 00 through 59.</td>
+      <td><code>6/15/2009 1:45:09 AM</code></td>
+      <td><output>09</output></td>
+    </tr>
+    
+    
+    <tr>
+      <td><code>t</code></td>
+      <td>The first character of the AM/PM designator.</td>
+      <td><code>6/15/2009 1:45:30 PM</code></td>
+      <td><output>P</output></td>
+    </tr>
+    
+    <tr>
+      <td><code>tt</code></td>
+      <td>The AM/PM designator.</td>
+      <td><code>6/15/2009 1:45:30 PM</code></td>
+      <td><output>PM</output></td>
+    </tr>
+    
+    
+    
+    <tr>
+      <td rowspan="5"><code>y</code></td>
+      <td rowspan="5">The year, from 0 to 99.</td>
+      <td><code>1/1/0001 12:00:00 AM</code></td>
+      <td><output>1</output></td>
+    </tr>
+    <tr>
+      <td><code>1/1/0900 12:00:00 AM</code></td>
+      <td><output>0</output></td>
+    </tr>
+    <tr>
+      <td><code>1/1/1900 12:00:00 AM</code></td>
+      <td><output>0</output></td>
+    </tr>
+    <tr>
+      <td><code>6/15/2009 1:45:30 PM</code></td>
+      <td><output>9</output></td>
+    </tr>
+    <tr>
+      <td><code>6/15/2009 12:00:00 AM</code></td>
+      <td><output>9</output></td>
+    </tr>
+    
+    
+    
+    
+    <tr>
+      <td rowspan="4"><code>yy</code></td>
+      <td rowspan="4">The year, from 00 to 99.</td>
+      <td><code>1/1/0001 12:00:00 AM</code></td>
+      <td><output>01</output></td>
+    </tr>
+    <tr>
+      <td><code>1/1/0900 12:00:00 AM</code></td>
+      <td><output>00</output></td>
+    </tr>
+    <tr>
+      <td><code>1/1/1900 12:00:00 AM</code></td>
+      <td><output>00</output></td>
+    </tr>
+    <tr>
+      <td><code>6/15/2009 1:45:30 PM</code></td>
+      <td><output>09</output></td>
+    </tr>
+    
+    <tr>
+      <td rowspan="4"><code>yyy</code></td>
+      <td rowspan="4">The year, with a minimum of three digits.</td>
+      <td><code>1/1/0001 12:00:00 AM</code></td>
+      <td><output>001</output></td>
+    </tr>
+    <tr>
+      <td><code>1/1/0900 12:00:00 AM</code></td>
+      <td><output>900</output></td>
+    </tr>
+    <tr>
+      <td><code>1/1/1900 12:00:00 AM</code></td>
+      <td><output>1900</output></td>
+    </tr>
+    <tr>
+      <td><code>6/15/2009 1:45:30 PM</code></td>
+      <td><output>2009</output></td>
+    </tr>
+    
+    
+    <tr>
+      <td rowspan="4"><code>yyyy</code></td>
+      <td rowspan="4">The year, with a minimum of four digits.</td>
+      <td><code>1/1/0001 12:00:00 AM</code></td>
+      <td><output>0001</output></td>
+    </tr>
+    <tr>
+      <td><code>1/1/0900 12:00:00 AM</code></td>
+      <td><output>0900</output></td>
+    </tr>
+    <tr>
+      <td><code>1/1/1900 12:00:00 AM</code></td>
+      <td><output>1900</output></td>
+    </tr>
+    <tr>
+      <td><code>6/15/2009 1:45:30 PM</code></td>
+      <td><output>2009</output></td>
+    </tr>
+    
+    
+    <tr>
+      <td rowspan="2"><code>yyyyy</code></td>
+      <td rowspan="2">The year, with a minimum of five digits.</td>
+      <td><code>1/1/0001 12:00:00 AM</code></td>
+      <td><output>00001</output></td>
+    </tr>
+    <tr>
+      <td><code>6/15/2009 1:45:30 PM</code></td>
+      <td><output>02009</output></td>
+    </tr>
+    
+    
+    <tr>
+      <td><code>z</code></td>
+      <td>Hours offset from UTC, with no leading zeros.</td>
+      <td><code>6/15/2009 1:45:30 PM -07:00</code></td>
+      <td><output>-7</output></td>
+    </tr>
+    
+    
+    <tr>
+      <td><code>zz</code></td>
+      <td>Hours offset from UTC, with a leading zero for a single-digit value.</td>
+      <td><code>6/15/2009 1:45:30 PM -07:00</code></td>
+      <td><output>-07</output></td>
+    </tr>
+    
+    
+    <tr>
+      <td><code>zzz</code></td>
+      <td>Hours and minutes offset from UTC, with a leading zero for a single-digit value.</td>
+      <td><code>6/15/2009 1:45:30 PM -07:00</code></td>
+      <td><output>-07:00</output></td>
+    </tr>
     
     
   </tbody>
