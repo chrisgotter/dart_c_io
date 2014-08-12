@@ -284,29 +284,40 @@ corresponding argument:
     </tr>
     
     <tr>
-      <td rowspan="2"><code>dd</code></td>
+      <td><code>dd</code></td>
       <td rowspan="2">The day of the month, from 1 through 31.</td>
       <td><code>6/1/2009 1:45:30 PM</code></td>
       <td><output>01</output></td>
     </tr>
     <tr>
+      <td><code>%d</code></td>
       <td><code>6/15/2009 1:45:30 PM</code>
       <td><output>15</output></td>
     </tr>
     
-    <tr>
-      <td rowspan><code>ddd</code></td>
-      <td rowspan>The abbreviated name of the day of the week.</td>
-      <td><code>6/15/2009 1:45:30 PM</code></td>
-      <td><output>Mon</output></td>
-    </tr>
-    <tr>
-      <td rowspan><code>dddd</code></td>
-      <td rowspan>The full name of the day of the week.</td>
-      <td><code>6/15/2009 1:45:30 PM</code></td>
-      <td><output>Monday</output></td>
-    </tr>
     
+    <tr>
+      <td><code>e</code></td>
+      <td rowspan="2">Day of the month, space-padded ( 1-31)</td>
+      <td rowspan="2"><code>6/1/2009 1:45:30 PM</code></td>
+      <td rowspan="2"><output>&nbsp;1</output></td>
+    </tr>
+    <tr><td><code>%e</code></td></tr>
+    
+    <tr>
+      <td><code>ddd</code></td>
+      <td rowspan="2">The abbreviated name of the day of the week.</td>
+      <td rowspan="2"><code>6/15/2009 1:45:30 PM</code></td>
+      <td rowspan="2"><output>Mon</output></td>
+    </tr>
+    <tr><td><code>%a</code></td></tr>
+    <tr>
+      <td><code>dddd</code></td>
+      <td rowspan="2">The full name of the day of the week.</td>
+      <td rowspan="2"><code>6/15/2009 1:45:30 PM</code></td>
+      <td rowspan="2"><output>Monday</output></td>
+    </tr>
+    <tr><td><code>%A</code></td></tr>
     
     
     <tr>
@@ -566,18 +577,21 @@ corresponding argument:
     
     <tr>
       <td><code>MMM</code></td>
-      <td>The abbreviated name of the month.</td>
-      <td><code>6/15/2009 1:45:30 PM</code></td>
-      <td><output>Jun</output></td>
+      <td rowspan="2">The abbreviated name of the month.</td>
+      <td rowspan="2"><code>6/15/2009 1:45:30 PM</code></td>
+      <td rowspan="2"><output>Jun</output></td>
     </tr>
+    
+    <tr><td><code>%b</code></td></tr>
     
     <tr>
       <td><code>MMMM</code></td>
-      <td>The full name of the month.</td>
-      <td><code>6/15/2009 1:45:30 PM</code></td>
-      <td><output>June</output></td>
+      <td rowspan="2">The full name of the month.</td>
+      <td rowspan="2"><code>6/15/2009 1:45:30 PM</code></td>
+      <td rowspan="2"><output>June</output></td>
     </tr>
     
+    <tr><td><code>%B</code></td></tr>
     
     <tr>
       <td><code>s</code></td>
@@ -677,7 +691,7 @@ corresponding argument:
     
     
     <tr>
-      <td rowspan="4"><code>yyyy</code></td>
+      <td rowspan="2"><code>yyyy</code></td>
       <td rowspan="4">The year, with a minimum of four digits.</td>
       <td><code>1/1/0001 12:00:00 AM</code></td>
       <td><output>0001</output></td>
@@ -687,6 +701,8 @@ corresponding argument:
       <td><output>0900</output></td>
     </tr>
     <tr>
+    
+      <td rowspan="2"><code>%Y</code></td>
       <td><code>1/1/1900 12:00:00 AM</code></td>
       <td><output>1900</output></td>
     </tr>
@@ -731,6 +747,24 @@ corresponding argument:
       <td><output>-07:00</output></td>
     </tr>
     
+    <tr>
+      <td><code>zzzz</code></td>
+      <td rowspan="2">
+        ISO 8601 offset from UTC in timezone (1 minute=1, 1 hour=100) 
+        If timezone cannot be termined, no characters(no : )
+      </td>
+      <td rowspan="2"><code>6/15/2009 1:45:30 PM -07:00</code></td>
+      <td rowspan="2"><output>-07:00</output></td>
+    </tr>
     
+    <tr><td><code>%z</code></td></tr>
+    
+    <tr>
+      <td><code>Z</code></td>
+      <td rowspan="2">Timezone name or abbreviation *If timezone cannot be termined, no characters</td>
+      <td rowspan="2"><code>6/15/2009 1:45:30 PM -07:00</code></td>
+      <td rowspan="2"><output>PST</output></td>
+    </tr>
+    <tr><td><code>%Z</code></td></tr>
   </tbody>
 </table>
