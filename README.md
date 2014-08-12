@@ -1,6 +1,7 @@
-function
+<div>
+  <i style="float:left">function</i>
+  <div style="float:right">\<<code>dart_c_io</code>\></div>
 
-\<dart_c_io\>
 
 printf
 ======
