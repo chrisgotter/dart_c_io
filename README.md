@@ -1,6 +1,6 @@
 function
 
-\<print.js\>
+\<dart_c_io\>
 
 printf
 ======
@@ -235,7 +235,7 @@ corresponding argument:
       </td>
     </tr>
     <tr>
-      <td><code>\#</code></td>
+      <td><code>#</code></td>
       <td>
         Used with o, x or X specifiers the value is preceded with 0, 0x 
         or 0X respectively for values different than zero. Used with a, 
@@ -273,7 +273,7 @@ corresponding argument:
   </thead>
   <tbody>
     <tr>
-      <td rowspan="2">d</td>
+      <td rowspan="2"><code>d</code></td>
       <td rowspan="2">The day of the month, from 1 through 31.</td>
       <td><code>6/1/2009 1:45:30 PM</code></td>
       <td><output>1</output></td>
@@ -282,16 +282,336 @@ corresponding argument:
       <td><code>6/15/2009 1:45:30 PM</code></td>
       <td><output>15</output></td>
     </tr>
-
+    
     <tr>
       <td rowspan="2"><code>dd</code></td>
       <td rowspan="2">The day of the month, from 1 through 31.</td>
       <td><code>6/1/2009 1:45:30 PM</code></td>
-      <td><output>1</output></td>
+      <td><output>01</output></td>
     </tr>
     <tr>
       <td><code>6/15/2009 1:45:30 PM</code>
       <td><output>15</output></td>
     </tr>
+    
+    <tr>
+      <td rowspan><code>ddd</code></td>
+      <td rowspan>The abbreviated name of the day of the week.</td>
+      <td><code>6/15/2009 1:45:30 PM</code></td>
+      <td><output>Mon</output></td>
+    </tr>
+    <tr>
+      <td rowspan><code>dddd</code></td>
+      <td rowspan>The full name of the day of the week.</td>
+      <td><code>6/15/2009 1:45:30 PM</code></td>
+      <td><output>Monday</output></td>
+    </tr>
+    
+    
+    
+    <tr>
+      <td rowspan="2"><code>f</code></td>
+      <td rowspan="2">The tenths of a second in a date and time value.</td>
+      <td><code>6/15/2009 13:45:30.617</code></td>
+      <td><output>6</output></td>
+    </tr>
+    <tr>
+      <td><code>6/15/2009 13:45:30.050</code></td>
+      <td><output>0</output></td>
+    </tr>
+    
+    <tr>
+      <td rowspan="2"><code>ff</code></td>
+      <td rowspan="2">The hundredths of a second in a date and time value.</td>
+      <td><code>6/15/2009 13:45:30.617</code></td>
+      <td><output>61</output></td>
+    </tr>
+    <tr>
+      <td><code>6/15/2009 13:45:30.005</code></td>
+      <td><output>00</output></td>
+    </tr>
+    
+    
+    
+    
+    <tr>
+      <td rowspan="2"><code>fff</code></td>
+      <td rowspan="2">The milliseconds in a date and time value.</td>
+      <td><code>6/15/2009 13:45:30.617</code></td>
+      <td><output>617</output></td>
+    </tr>
+    <tr>
+      <td><code>6/15/2009 13:45:30.0005</code></td>
+      <td><output>000</output></td>
+    </tr>
+    
+    
+    
+    <tr>
+      <td rowspan="2"><code>ffff</code></td>
+      <td rowspan="2">The ten thousandths of a second in a date and time value.</td>
+      <td><code>6/15/2009 13:45:30.6175</code></td>
+      <td><output>6175</output></td>
+    </tr>
+    <tr>
+      <td><code>6/15/2009 13:45:30.000005</code></td>
+      <td><output>0000</output></td>
+    </tr>
+    
+    
+    <tr>
+      <td rowspan="2"><code>fffff</code></td>
+      <td rowspan="2">The hundred thousandths of a second in a date and time value.</td>
+      <td><code>6/15/2009 13:45:30.61754</code></td>
+      <td><output>61754</output></td>
+    </tr>
+    <tr>
+      <td><code>6/15/2009 13:45:30.000005</code></td>
+      <td><output>00000</output></td>
+    </tr>
+    
+    <tr>
+      <td rowspan="2"><code>ffffff</code></td>
+      <td rowspan="2">The millionths of a second in a date and time value.</td>
+      <td><code>6/15/2009 13:45:30.617542</code></td>
+      <td><output>617542</output></td>
+    </tr>
+    <tr>
+      <td><code>6/15/2009 13:45:30.0000005</code></td>
+      <td><output>000000</output></td>
+    </tr>
+    
+    <tr>
+      <td rowspan="2"><code>fffffff</code></td>
+      <td rowspan="2">The ten millionths of a second in a date and time value.</td>
+      <td><code>6/15/2009 13:45:30.6175425</code></td>
+      <td><output>6175425</output></td>
+    </tr>
+    <tr>
+      <td><code>6/15/2009 13:45:30.00000005</code></td>
+      <td><output>000000</output></td>
+    </tr>
+    <tr>
+      <td rowspan="2"><code>F</code></td>
+      <td rowspan="2">If non-zero, the tenths of a second in a date and time value.</td>
+      <td><code>6/15/2009 13:45:30.617</code></td>
+      <td><output>6</output></td>
+    </tr>
+    <tr>
+      <td><code>6/15/2009 13:45:30.050</code></td>
+      <td><output>(no output)</output></td>
+    </tr>
+    
+    <tr>
+      <td rowspan="2"><code>FF</code></td>
+      <td rowspan="2">If non-zero, the hundredths of a second in a date and time value.</td>
+      <td><code>6/15/2009 13:45:30.617</code></td>
+      <td><output>61</output></td>
+    </tr>
+    <tr>
+      <td><code>6/15/2009 13:45:30.005</code></td>
+      <td><output>(no output)</output></td>
+    </tr>
+    
+    <tr>
+      <td rowspan="2"><code>FFF</code></td>
+      <td rowspan="2">If non-zero, the milliseconds in a date and time value.</td>
+      <td><code>6/15/2009 13:45:30.617</code></td>
+      <td><output>617</output></td>
+    </tr>
+    <tr>
+      <td><code>6/15/2009 13:45:30.0005</code></td>
+      <td><output>(no output)</output></td>
+    </tr>
+    
+    
+    
+    <tr>
+      <td rowspan="2"><code>FFFF</code></td>
+      <td rowspan="2">If non-zero, the ten thousandths of a second in a date and time value.</td>
+      <td><code>6/15/2009 13:45:30.6175</code></td>
+      <td><output>6175</output></td>
+    </tr>
+    <tr>
+      <td><code>6/15/2009 13:45:30.000005</code></td>
+      <td><output>(no output)</output></td>
+    </tr>
+    
+    
+    <tr>
+      <td rowspan="2"><code>FFFFF</code></td>
+      <td rowspan="2">If non-zero, the hundred thousandths of a second in a date and time value.</td>
+      <td><code>6/15/2009 13:45:30.61754</code></td>
+      <td><output>61754</output></td>
+    </tr>
+    <tr>
+      <td><code>6/15/2009 13:45:30.000005</code></td>
+      <td><output>(no output)</output></td>
+    </tr>
+    
+    <tr>
+      <td rowspan="2"><code>FFFFFF</code></td>
+      <td rowspan="2">If non-zero, the millionths of a second in a date and time value.</td>
+      <td><code>6/15/2009 13:45:30.617542</code></td>
+      <td><output>617542</output></td>
+    </tr>
+    <tr>
+      <td><code>6/15/2009 13:45:30.0000005</code></td>
+      <td><output>(no output)</output></td>
+    </tr>
+    
+    <tr>
+      <td rowspan="2"><code>FFFFFFF</code></td>
+      <td rowspan="2">If non-zero, the ten millionths of a second in a date and time value.</td>
+      <td><code>6/15/2009 13:45:30.6175425</code></td>
+      <td><output>6175425</output></td>
+    </tr>
+    <tr>
+      <td><code>6/15/2009 13:45:30.00000005</code></td>
+      <td><output>(no output)</output></td>
+    </tr>
+    
+    
+    <tr>
+      <td><code>g</code></td>
+      <td rowspan="2">The period or era.</td>
+      <td rowspan="2"><code>6/15/2009 1:45:30 PM</code></td>
+      <td rowspan="2"><output>A.D.</output></td>
+    </tr>
+    <tr>
+      <td><code>gg</code></td>
+    </tr>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <tr>
+      <td rowspan="2"><code>h</code></td>
+      <td rowspan="2">The hour, using a 12-hour clock from 1 to 12.</td>
+      <td><code>6/15/2009 1:45:30 AM</code></td>
+      <td><output>1</output></td>
+    </tr>
+    <tr>
+      <td><code>6/15/2009 1:45:30 PM</code></td>
+      <td><output>15</output></td>
+    </tr>
+    
+    <tr>
+      <td rowspan="2"><code>hh</code></td>
+      <td rowspan="2">The hour, using a 12-hour clock from 01 to 12.</td>
+      <td><code>6/1/2009 1:45:30 AM</code></td>
+      <td><output>01</output></td>
+    </tr>
+    <tr>
+      <td><code>6/15/2009 1:45:30 PM</code>
+      <td><output>1</output></td>
+    </tr>
+    
+    <tr>
+      <td rowspan="2"><code>H</code></td>
+      <td rowspan="2">The hour, using a 24-hour clock from 1 to 24.</td>
+      <td><code>6/15/2009 1:45:30 AM</code></td>
+      <td><output>1</output></td>
+    </tr>
+    <tr>
+      <td><code>6/15/2009 1:45:30 PM</code></td>
+      <td><output>13</output></td>
+    </tr>
+    
+    <tr>
+      <td rowspan="2"><code>HH</code></td>
+      <td rowspan="2">The hour, using a 24-hour clock from 01 to 24.</td>
+      <td><code>6/15/2009 1:45:30 AM</code></td>
+      <td><output>01</output></td>
+    </tr>
+    <tr>
+      <td><code>6/15/2009 1:45:30 PM</code>
+      <td><output>13</output></td>
+    </tr>
+    
+    
+    <tr>
+      <td rowspan="2"><code>m</code></td>
+      <td rowspan="2">The minute, from 0 through 59.</td>
+      <td><code>6/15/2009 1:09:30 AM</code></td>
+      <td><output>9</output></td>
+    </tr>
+    <tr>
+      <td><code>6/15/2009 1:09:30 PM</code></td>
+      <td><output>9</output></td>
+    </tr>
+    
+    <tr>
+      <td rowspan="2"><code>mm</code></td>
+      <td rowspan="2">The minute, from 00 through 59.</td>
+      <td><code>6/1/2009 1:09:30 AM</code></td>
+      <td><output>09</output></td>
+    </tr>
+    <tr>
+      <td><code>6/15/2009 1:09:30 PM</code>
+      <td><output>09</output></td>
+    </tr>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <tr>
+      <td><code>M</code></td>
+      <td>The month, from 1 through 12.</td>
+      <td><code>6/15/2009 1:45:30 PM</code></td>
+      <td><output>6</output></td>
+    </tr>
+    
+    <tr>
+      <td><code>MM</code></td>
+      <td>The month, from 01 through 12.</td>
+      <td><code>6/15/2009 1:45:30 PM</code></td>
+      <td><output>06</output></td>
+    </tr>
+    
+    
+    <tr>
+      <td><code>MMM</code></td>
+      <td>The abbreviated name of the month.</td>
+      <td><code>6/15/2009 1:45:30 PM</code></td>
+      <td><output>Jun</output></td>
+    </tr>
+    
+    <tr>
+      <td><code>MMMM</code></td>
+      <td>The full name of the month.</td>
+      <td><code>6/15/2009 1:45:30 PM</code></td>
+      <td><output>June</output></td>
+    </tr>
+    
+    
+    
+    
   </tbody>
 </table>
