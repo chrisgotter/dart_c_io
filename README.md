@@ -1,6 +1,7 @@
 <div>
-  <i style="float:left">function</i>
-  <div style="float:right">\<<code>dart_c_io</code>\></div>
+  <i style="float:left; width:40%;">function</i>
+  <div style="float:right; width:40%;">&lt;<code>dart_c_io</code>&gt;</div>
+</div>
 
 
 printf
